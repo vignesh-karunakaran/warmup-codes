@@ -3,7 +3,7 @@ public class Stringsquare {
 public static void main(String a[]){
 
 //size of the characters to create is num and k is for assigning characters
-int num,k;
+int num,d;
 
 	Scanner c= new Scanner(System.in);
 	
@@ -19,11 +19,10 @@ for(int i=0;i<num;i++) {
 
 		//k is assigned here 
 	
-		k = i+j;
-
-		//using conditional operator instead of using more while loops
-	
-		k =(k<num) ? k : k-num;
+		int k = i+j;
+		
+		d = k % num;
+		
 	
 		System.out.print((char)(65+k));
 	
