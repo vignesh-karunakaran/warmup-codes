@@ -24,7 +24,7 @@ for(int i=0;i<num;i++) {
 		d = k % num;
 		
 	
-		System.out.print((char)(65+k));
+		System.out.print((char)(65+d));
 	
 	}
 
